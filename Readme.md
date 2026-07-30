@@ -1,0 +1,1 @@
+Day 1: of starting with Ts, I didn't understand how a .ts file is ran? executed? using node we can do it! but i was looking more into the part of running it directly via code runner. Will come back to this tommorrow.
