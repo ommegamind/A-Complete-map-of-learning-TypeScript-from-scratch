@@ -5,3 +5,5 @@ commands npm init -y, npm i -D typescript, npx tsc init, create src and dist fol
 To run the program run the compiled index.js in dist.
 
 Questions: Here idk lets say i created a folder in src and imported a function from that into index.ts, how will my index.js recreate this structure??
+
+Answer: well for now, it literally creates any folder structure i create in the src folder inside the dist folder and the script in package.json can run these scripts as instructed!

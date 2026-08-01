@@ -1,5 +1,3 @@
-function greet(name: string): string {
-  return ` hello! ${name}`;
-}
+import { greet } from "./handlers/greetHandler.js";
 
-console.log(greet("ommmm"));
+console.log(greet("ommm"));
