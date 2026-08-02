@@ -3,3 +3,5 @@ const greet = (name: string): string => {
 };
 
 export { greet };
+
+// how exports and file/folder creation works in tsc and its src and dist folders.
