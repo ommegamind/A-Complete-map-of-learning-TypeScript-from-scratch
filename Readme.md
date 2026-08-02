@@ -7,3 +7,5 @@ To run the program run the compiled index.js in dist.
 Questions: Here idk lets say i created a folder in src and imported a function from that into index.ts, how will my index.js recreate this structure??
 
 Answer: well for now, it literally creates any folder structure i create in the src folder inside the dist folder and the script in package.json can run these scripts as instructed!
+
+Day 3: understanding type annotation and inference and union of multiple type, the union thing can be used to accept multiple types of data into a variable from a API.
