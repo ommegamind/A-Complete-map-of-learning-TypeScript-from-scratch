@@ -26,13 +26,16 @@ export class Burger {
   };
 }
 
-export const serveItem = (obj: unknown) => {
-  if (obj instanceof Pizza) {
-    const serving = obj.serve();
-    return serving;
-  } else if (obj instanceof Burger) {
-    const serving = obj.serve();
-    return serving;
+export const serveItem = (obj: Pizza | Burger | string) => {
+  if (typeof obj === "object") {
+    if (obj instanceof Pizza) {
+      const serving = obj.serve();
+      return serving;
+    } else if (obj instanceof Burger) {
+      const serving = obj.serve();
+      return serving;
+    }
+  } else {
+    return `unknown item`;
   }
-  return `unknown item`;
 };

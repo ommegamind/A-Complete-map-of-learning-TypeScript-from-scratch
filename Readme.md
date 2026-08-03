@@ -13,3 +13,5 @@ Day 3: understanding type annotation and inference and union of multiple type, t
 Day 4: learning about type narrowing, or type guarding, or guardraling.
 
 Question: Here i don't understand the working of classes, objects, their type checking and exporting them and handling them
+
+It wasn't much of an issue, just remember to use default types as stated, i.e. string or number are not written as "string" or "number"
