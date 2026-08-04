@@ -15,3 +15,7 @@ Day 4: learning about type narrowing, or type guarding, or guardraling.
 Question: Here i don't understand the working of classes, objects, their type checking and exporting them and handling them
 
 It wasn't much of an issue, just remember to use default types as stated, i.e. string or number are not written as "string" or "number"
+
+Day 5: Custom types, created and used custom types in functions, also a tip for exporting and importing custom types in typescript
+Tip: Pizza is only a TypeScript type, not a runtime value. With "verbatimModuleSyntax": true, TypeScript requires you to explicitly mark type imports.
+Correct: import type { Pizza } from "./pizza";
