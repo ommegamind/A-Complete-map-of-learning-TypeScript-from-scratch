@@ -19,3 +19,5 @@ It wasn't much of an issue, just remember to use default types as stated, i.e. s
 Day 5: Custom types, created and used custom types in functions, also a tip for exporting and importing custom types in typescript
 Tip: Pizza is only a TypeScript type, not a runtime value. With "verbatimModuleSyntax": true, TypeScript requires you to explicitly mark type imports.
 Correct: import type { Pizza } from "./pizza";
+
+Another thing, we can create custom types and use those custom types to create a new type consisting of values from only these custom types. Also applied type narrowing using switch case.

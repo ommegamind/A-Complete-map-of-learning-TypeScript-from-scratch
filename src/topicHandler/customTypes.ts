@@ -15,3 +15,20 @@ export const orderPizza = (pizza: Pizza | string): string => {
   }
   return `serving ${pizza}`;
 };
+
+export type coldCoffee = { type: "italian"; temperature: "cold" };
+export type vanillaCoffee = { type: "greek"; falvour: "vanilla" };
+export type hotCoffee = { type: "chinese"; temperature: "hot" };
+
+export type coffee = coldCoffee | vanillaCoffee | hotCoffee;
+
+export const coffeeOrder = (order: coffee) => {
+  switch (order.type) {
+    case "italian":
+      return order.temperature;
+    case "greek":
+      return order.falvour;
+    case "chinese":
+      return order.temperature;
+  }
+};

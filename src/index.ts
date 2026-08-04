@@ -1,8 +1,14 @@
 //Day 1
 // import { greet } from "./topicHandler/greetHandler.js";
 
+// Day 1
+// console.log(greet("om garg"));
+
 //Day 2
 // import { useApi } from "./topicHandler/typeUnion.js";
+
+// console.log(useApi("processing"));
+// console.log(useApi("processed"));
 
 //Day3
 // import {
@@ -13,17 +19,6 @@
 //   serveItem,
 // } from "./topicHandler/typeNarrowing.js";
 
-import { orderPizza } from "./topicHandler/customTypes.js";
-import type { Pizza } from "./topicHandler/customTypes.js";
-
-// Day 1
-// console.log(greet("om garg"));
-
-//Day 2
-// console.log(useApi("processing"));
-// console.log(useApi("processed"));
-
-//Day 3
 // console.log(serveIntStr("juice"));
 // console.log(serveIntStr(12));
 
@@ -39,9 +34,25 @@ import type { Pizza } from "./topicHandler/customTypes.js";
 // console.log(serveItem(item3));
 
 //Day 4
-const order1: Pizza = {
-  type: "classic",
-  size: 4,
-};
+// import { orderPizza } from "./topicHandler/customTypes.js";
+// import type { Pizza } from "./topicHandler/customTypes.js";
 
-console.log(orderPizza(order1));
+// const order1: Pizza = {
+//   type: "classic",
+//   size: 4,
+// };
+
+// console.log(orderPizza(order1));
+
+//Day 5
+import type { coffee } from "./topicHandler/customTypes.js";
+
+import { coffeeOrder } from "./topicHandler/customTypes.js";
+
+const order1: coffee = { type: "chinese", temperature: "hot" };
+const order2: coffee = { type: "greek", falvour: "vanilla" };
+const order3: coffee = { type: "italian", temperature: "cold" };
+
+console.log(coffeeOrder(order1));
+console.log(coffeeOrder(order2));
+console.log(coffeeOrder(order3));
