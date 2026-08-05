@@ -58,15 +58,21 @@
 // console.log(coffeeOrder(order3));
 
 //Day 6
-import {
-  recievedData,
-  number,
-  recievedDataTypeAssertion,
-} from "./topicHandler/typeAssertion.js";
+// import {
+//   recievedData,
+//   number,
+//   recievedDataTypeAssertion,
+// } from "./topicHandler/typeAssertion.js";
 
-console.log(number);
-console.log(recievedData);
-console.log(typeof recievedData);
-console.log(recievedDataTypeAssertion);
-//here we have direct access to the property name as it is asserted as a Book type
-console.log(typeof recievedDataTypeAssertion);
+// console.log(number);
+// console.log(recievedData);
+// console.log(typeof recievedData);
+// console.log(recievedDataTypeAssertion);
+
+// //here we have direct access to the property-
+//  name as it is asserted as a Book type
+
+// console.log(typeof recievedDataTypeAssertion);
+
+// // Note: any and unknown types are discussed in -
+// // their specific files!
