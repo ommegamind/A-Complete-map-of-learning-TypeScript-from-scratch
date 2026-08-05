@@ -21,3 +21,6 @@ Tip: Pizza is only a TypeScript type, not a runtime value. With "verbatimModuleS
 Correct: import type { Pizza } from "./pizza";
 
 Another thing, we can create custom types and use those custom types to create a new type consisting of values from only these custom types. Also applied type narrowing using switch case.
+
+Day 6: type assertion using () and as keyword, here we assure typescript that the recieved value of the type we are asserting, hence giving us access to propertis and functions of that particular type.
+Note: The built in typeof function only recognizes the built in types, not custom types.

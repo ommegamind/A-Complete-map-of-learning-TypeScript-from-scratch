@@ -45,14 +45,28 @@
 // console.log(orderPizza(order1));
 
 //Day 5
-import type { coffee } from "./topicHandler/customTypes.js";
+// import type { coffee } from "./topicHandler/customTypes.js";
 
-import { coffeeOrder } from "./topicHandler/customTypes.js";
+// import { coffeeOrder } from "./topicHandler/customTypes.js";
 
-const order1: coffee = { type: "chinese", temperature: "hot" };
-const order2: coffee = { type: "greek", falvour: "vanilla" };
-const order3: coffee = { type: "italian", temperature: "cold" };
+// const order1: coffee = { type: "chinese", temperature: "hot" };
+// const order2: coffee = { type: "greek", falvour: "vanilla" };
+// const order3: coffee = { type: "italian", temperature: "cold" };
 
-console.log(coffeeOrder(order1));
-console.log(coffeeOrder(order2));
-console.log(coffeeOrder(order3));
+// console.log(coffeeOrder(order1));
+// console.log(coffeeOrder(order2));
+// console.log(coffeeOrder(order3));
+
+//Day 6
+import {
+  recievedData,
+  number,
+  recievedDataTypeAssertion,
+} from "./topicHandler/typeAssertion.js";
+
+console.log(number);
+console.log(recievedData);
+console.log(typeof recievedData);
+console.log(recievedDataTypeAssertion);
+//here we have direct access to the property name as it is asserted as a Book type
+console.log(typeof recievedDataTypeAssertion);
