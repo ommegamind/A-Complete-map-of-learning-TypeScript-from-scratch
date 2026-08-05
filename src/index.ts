@@ -76,3 +76,28 @@
 
 // // Note: any and unknown types are discussed in -
 // // their specific files!
+// // and try catch type narrowing is discussed in -
+// // type narrowinng page
+
+// Day 7
+// import type { Access } from "./topicHandler/anyxUnknown.js";
+
+// const redirectPage = (access: Access): void => {
+//   if (access === "admin") {
+//     console.log("hie admin");
+//     return;
+//   } else if (access === "user") {
+//     console.log("hie user");
+//     return;
+//   }
+//   access; //never condition only happens the program-
+//   //is terminating at every other possible condition-
+//   //or value to be accessed.
+// };
+
+// The below function never returns hence return type is-
+// never!
+
+// const neverReturn = (): never => {
+//   while (true) {}
+// };
