@@ -28,3 +28,5 @@ Note: The built in typeof function only recognizes the built in types, not custo
 Day 7: learning implementaion of classes using instances rather
 than using types, as types defined in certain format may not
 function properly with class implementaion
+
+Day 8: learned about properties of custom types

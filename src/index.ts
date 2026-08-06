@@ -104,3 +104,6 @@
 
 //Day 8
 //discussed in the file classes_and_interface.ts
+// also the properties of custom types, the code and its explaination
+// can be found in the  customTypeProperties.ts file,
+// in topic handler
