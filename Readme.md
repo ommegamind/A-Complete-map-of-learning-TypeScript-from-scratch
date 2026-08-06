@@ -24,3 +24,7 @@ Another thing, we can create custom types and use those custom types to create a
 
 Day 6: type assertion using () and as keyword, here we assure typescript that the recieved value of the type we are asserting, hence giving us access to propertis and functions of that particular type.
 Note: The built in typeof function only recognizes the built in types, not custom types.
+
+Day 7: learning implementaion of classes using instances rather
+than using types, as types defined in certain format may not
+function properly with class implementaion

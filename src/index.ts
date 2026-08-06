@@ -101,3 +101,6 @@
 // const neverReturn = (): never => {
 //   while (true) {}
 // };
+
+//Day 8
+//discussed in the file classes_and_interface.ts
