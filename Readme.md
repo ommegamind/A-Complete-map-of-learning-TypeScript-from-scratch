@@ -30,3 +30,6 @@ than using types, as types defined in certain format may not
 function properly with class implementaion
 
 Day 8: learned about properties of custom types
+
+Day 9: learned about object inference by type script and duck typing, AND how does
+object inference effect the use of objects, specially in duck typing!

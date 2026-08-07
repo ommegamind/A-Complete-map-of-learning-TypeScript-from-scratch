@@ -107,3 +107,17 @@
 // also the properties of custom types, the code and its explaination
 // can be found in the  customTypeProperties.ts file,
 // in topic handler
+
+//Day 9
+
+// import { coldCoffee } from "./topicHandler/duckNdInferenceTyping.js";
+
+// console.log(coldCoffee.temp);
+// console.log(coldCoffee.flavour);
+
+// even though the obj of type brew contains both temp and flavour
+// since it is explicetly defined as type brew
+// which only has temp, when accessing the object coldCoffee, we won't be able
+// to access flavour, thowing a compile error
+
+// more details in duckNdInferenctTyping.ts
