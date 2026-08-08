@@ -121,3 +121,22 @@
 // to access flavour, thowing a compile error
 
 // more details in duckNdInferenctTyping.ts
+
+//Day 10
+// explained in typeProperties.ts
+import {
+  requiredSelection,
+  partialSelection,
+} from "./topicHandler/typeProperties.js";
+
+requiredSelection({
+  name: "espresso",
+  price: 80,
+  sugar: 3,
+  coffee: 3,
+  cream: true,
+});
+
+partialSelection({});
+
+partialSelection({ name: "cafe latte" });

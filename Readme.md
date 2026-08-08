@@ -33,3 +33,8 @@ Day 8: learned about properties of custom types
 
 Day 9: learned about object inference by type script and duck typing, AND how does
 object inference effect the use of objects, specially in duck typing!
+
+Day 10: Learned different ways to split types.
+Another method was way to: Omit or Pick from existing type to create a new type.
+And the Required and Partial function where we can set if the property of the type
+will we compulsory or optional to pass.
