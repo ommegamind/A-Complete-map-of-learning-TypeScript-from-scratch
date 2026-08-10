@@ -124,19 +124,25 @@
 
 //Day 10
 // explained in typeProperties.ts
-import {
-  requiredSelection,
-  partialSelection,
-} from "./topicHandler/typeProperties.js";
+// import {
+//   requiredSelection,
+//   partialSelection,
+// } from "./topicHandler/typeProperties.js";
 
-requiredSelection({
-  name: "espresso",
-  price: 80,
-  sugar: 3,
-  coffee: 3,
-  cream: true,
-});
+// requiredSelection({
+//   name: "espresso",
+//   price: 80,
+//   sugar: 3,
+//   coffee: 3,
+//   cream: true,
+// });
 
-partialSelection({});
+// partialSelection({});
 
-partialSelection({ name: "cafe latte" });
+// partialSelection({ name: "cafe latte" });
+
+//Day 11
+// Named tuple
+
+import { tuple05 } from "./topicHandler/array_Tuple_Enum.js";
+// console.log(tuple05[0]);
