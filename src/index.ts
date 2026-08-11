@@ -144,5 +144,8 @@
 //Day 11
 // Named tuple
 
-import { tuple05 } from "./topicHandler/array_Tuple_Enum.js";
-// console.log(tuple05[0]);
+// import { tuple05 } from "./topicHandler/array_Tuple_Enum.js";
+// // console.log(tuple05[0]);
+
+// Day 12
+// oop in ts, oop.ts

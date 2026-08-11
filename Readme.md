@@ -40,3 +40,5 @@ And the Required and Partial function where we can set if the property of the ty
 will we compulsory or optional to pass.
 
 Day 11: Learned about Tuples, Array, enum in array_Tuple_Enum.
+
+Day 12: Learned about, static member, abstract class, access handler, different types of private, inheritance and protected class, composition in oop.ts
