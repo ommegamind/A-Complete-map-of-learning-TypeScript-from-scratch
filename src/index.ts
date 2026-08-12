@@ -149,3 +149,8 @@
 
 // Day 12
 // oop in ts, oop.ts
+
+// Day 13
+// interface properties in interfaceProperty.ts,
+// mergign, object body definition, extends,
+// key value array declaration, readonly etc.

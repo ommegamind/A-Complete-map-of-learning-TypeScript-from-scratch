@@ -42,3 +42,5 @@ will we compulsory or optional to pass.
 Day 11: Learned about Tuples, Array, enum in array_Tuple_Enum.
 
 Day 12: Learned about, static member, abstract class, access handler, different types of private, inheritance and protected class, composition in oop.ts
+
+Day 13: Learned about interface and how it is also a way to declare types in object form, both interface and type can be used interchangebly and are used more specifically according to their use case.
