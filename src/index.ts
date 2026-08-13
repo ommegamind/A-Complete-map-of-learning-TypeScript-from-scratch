@@ -154,3 +154,7 @@
 // interface properties in interfaceProperty.ts,
 // mergign, object body definition, extends,
 // key value array declaration, readonly etc.
+
+// Day 14
+// generics, function and interface (used in api and creating libraries)
+// generics.ts file.
