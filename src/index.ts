@@ -158,3 +158,8 @@
 // Day 14
 // generics, function and interface (used in api and creating libraries)
 // generics.ts file.
+
+// Day 15
+
+import { getDataViaAxios } from "./topicHandler/usingAxios.js";
+getDataViaAxios();
