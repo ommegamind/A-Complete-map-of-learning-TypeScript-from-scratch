@@ -46,3 +46,7 @@ Day 12: Learned about, static member, abstract class, access handler, different 
 Day 13: Learned about interface and how it is also a way to declare types in object form, both interface and type can be used interchangebly and are used more specifically according to their use case.
 
 Day 14: Learned about generics and how they are used for creating generic function and interfaces, and where they are used. In generics.ts file.
+
+Day 15: Learned about using ts with axios
+
+Day 16: Learned about using ts in react, creating components and using states

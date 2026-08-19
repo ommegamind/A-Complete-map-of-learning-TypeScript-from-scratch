@@ -161,5 +161,9 @@
 
 // Day 15
 
-import { getDataViaAxios } from "./topicHandler/usingAxios.js";
-getDataViaAxios();
+// import { getDataViaAxios } from "./topicHandler/usingAxios.js";
+// getDataViaAxios();
+// axios in ts
+
+// Day 16
+// using react with ts and using ts with hooks
