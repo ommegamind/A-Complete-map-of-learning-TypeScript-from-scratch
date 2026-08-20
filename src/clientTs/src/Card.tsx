@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-interface ElementType {
+export interface CardElementType {
   prodName: string;
   prodPrice: number;
   isSpecial?: boolean;
@@ -10,7 +10,7 @@ export const CardElement = ({
   prodName,
   prodPrice,
   isSpecial = false,
-}: ElementType) => {
+}: CardElementType) => {
   return (
     <>
       <h2>Name: {prodName}</h2>
