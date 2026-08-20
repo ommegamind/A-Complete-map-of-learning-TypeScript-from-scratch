@@ -50,3 +50,5 @@ Day 14: Learned about generics and how they are used for creating generic functi
 Day 15: Learned about using ts with axios
 
 Day 16: Learned about using ts in react, creating components and using states
+
+Day 17: Learning how to create new types from existing types and prop handling with types.
