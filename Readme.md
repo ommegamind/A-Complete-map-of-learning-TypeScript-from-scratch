@@ -52,3 +52,5 @@ Day 15: Learned about using ts with axios
 Day 16: Learned about using ts in react, creating components and using states
 
 Day 17: Learning how to create new types from existing types and prop handling with types.
+
+Day 18: Learned setting functions as type, passing type as props
