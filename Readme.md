@@ -54,3 +54,5 @@ Day 16: Learned about using ts in react, creating components and using states
 Day 17: Learning how to create new types from existing types and prop handling with types.
 
 Day 18: Learned setting functions as type, passing type as props
+
+Day 19: Worked with and learned about predefined types and extending them
