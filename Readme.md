@@ -1,3 +1,5 @@
+src: [the yt video](https://youtu.be/kvP6hDXWy88?si=V1lOjT4PVJrQ7_kr)
+
 Day 1: of starting with Ts, I didn't understand how a .ts file is ran? executed? using node we can do it! but i was looking more into the part of running it directly via code runner. Will come back to this tommorrow.
 
 Day 2: soo i've started with the first function "greet()":
